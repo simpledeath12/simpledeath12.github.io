@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/2014-024676_SERRANO_RODYARDVAN_stylel_1_project4.css" id="style">
+	<title>Mission Montessori Child Center Web Page</title>
+</head>
+
+<body>
+		<div id="logo">
+			<img src="images/1.png" alt="Montessori Logo">
+		</div>
+		
+		<h1 id="school">
+			Mission Montessori Child Center
+		</h1>
+
+		<h2 id="address">
+			5th Street Our Lady's Village, Bitano, Legazpi City, Albay
+		</h2>
+
+		<div class="buttons" >
+
+		<button class="button">HOME</button>
+				
+		<div class="dropdown">
+			<button class="dropbtn">ANNOUNCEMENTS</button>
+			<div class="dropdown-content">
+				<a href="#">ANNOUNCEMENTS</a>
+				<a href="#">SCHOOL EVENTS</a>	
+			</div>
+		</div>
+		
+		<div class="dropdown">
+			<button class="dropbtn">STUDENT'S RECORD</button>
+			<div class="dropdown-content">
+			    <a href="#">CHILD'S/CHILDREN'S PROGRESS</a>
+			    <a href="#">CHILD'S/CHILDREN'S ATTENDANCE</a>	
+			</div>
+			</div>
+
+			<button class="button">ABOUT US</button>
+			<button class="button">CONTACT US</button>
+			<button class="button">FAQ's</button>
+
+		</div>
+
+		<div id="wrapper">
+
+			<h1 class="string">
+				WELCOME TO OUR WEBSITE
+			</h1>
+
+			<p class="string2">Do step in and enter the exciting, wonderful world of early childhood learning in the unique and highly experiential Montessori way.
+				Here, at Mission Montessori Child Center, as one of the pioneers in the Montessori education in the country, we safeguard the high quality standard Maria Montessori began. Moreover, we open and widen the pathways of learning for your child.
+				Feel free to walk through these special pages we've prepared just for you. Explore and discover what makes us different and pioneering among other local Montessori schools.  Browse through our well-rounded, tri-focused curriculum as well as our other enhancement programs; take a peek at our classrooms and gardens and imagine yourself a child nurtured by the encouraging atmosphere of love, freedom and discipline.  Best of all, get to know our well-trained and genial faculty and staff.
+				Come, enter our world and we hope you will not only enjoy this brief encounter but decide to stay with us for a long time.
+				WELCOME!
+			</p>
+
+			<h1 class="string">
+				MISSION
+			</h1>
+
+			<p class="string2">
+				Provide a quality environment, holistic in its approach, which unleashes in our children their natural curiosity,			
+				their intrinsic desire for life long learning, and their innate ability to be citizens who better our world community.
+			</p>
+
+			<h1 class="string">
+				VISION
+			</h1>
+			<p class="string2">
+				A carefully prepared learning environment that cultivates the mind, strengthens the skills and nurtures the spirit of the children we serve.
+			</p>
+			<br/>
+			<h1 class="string">
+					Login? Please click --> 
+			</h1>
+
+			<div id="login">
+				
+				<button id="myBtn" class="loginBtn">LOGIN</button>
+
+				<div id="myModal" class="modal">
+
+			  	<div class="modal-content">
+			    <span class="close">x</span>
+			    	<form id="modal-content1"> 
+						<label>USER TYPE :</label>
+						<select name="usertype">
+						<option  value="0">Please Select</option>
+						<option  value="1">Parent</option>
+						<option  value="2">Teacher</option>
+						<option  value="3">Student</option>
+						</select>
+						<br/>
+						<label >ID NUMBER:</label>
+						<input type="text" name="username"><br />
+						<label >PASSWORD:</label>
+						<input type="password" name="password" ><br />
+						<input type="submit" name="submit" value="SUBMIT" onclick="checkPassword(usertype.value,username.value,password.value)" id="submit"/>
+						</form>
+			  	</div>
+				</div>
+					<script src="javascript/2014-024676_SERRANO_RODYARD_VAN_project4.js"></script>
+				</div>
+
+			<h1 class="string">
+				For more styles. Choose here!
+			</h1>
+
+			
+				<script src="javascript/2014-024676_SERRANO_RODYARD_VAN_project4.js"></script>
+
+				<ul id="styles">
+				<li onClick = "myStyle1()" id = "firstFont"><a href="#" class = "firstFont" id = "firstColor">Plain Art Children's Theme</a></li>
+				<li onClick = "myStyle2()" id = "secondFont"><a href="#" class = "secondFont" id = "secondColor">Children's Theme</a></li>
+				<li onClick = "myStyle3()" id = "thirdFont"><a href="#" class = "thirdFont" id = "thirdColor">3D Art Children's Theme</a></li>
+				</ul>
+			
+		</div>
+
+</body>
+
+</html>
